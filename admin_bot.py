@@ -9,7 +9,7 @@ import asyncio
 from db import add_userbot, get_all_userbots, update_status, get_expired_userbots
 from userbot_manager import start_userbot, stop_userbot
 
-API_TOKEN = '6166148172:AAEqbsA6u30DfuMB2kcuXZjHq8z5jrpB0Xw'
+API_TOKEN = '12345:1ANKNKA91'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
