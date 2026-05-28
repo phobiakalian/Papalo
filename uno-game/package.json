@@ -1,0 +1,21 @@
+{
+  "name": "uno-telegram-mini-app",
+  "version": "1.0.0",
+  "description": "UNO Multiplayer Telegram Mini App with Vercel Serverless Functions",
+  "main": "api/bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
